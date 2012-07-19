@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+         <Button
+            android:id="@+id/send_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/send_photo"
+            android:visibility="gone" />
+ 		<ImageView
+ 		    android:layout_centerHorizontal="true"
+ 		    android:layout_below="@+id/send_photo"
+            android:id="@+id/photo_full"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_below="@id/photo_full"
+            android:id="@+id/info_view_latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_small" />
+
+        <TextView
+            android:id="@+id/info_view_longtitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_view_latitude"
+            android:padding="@dimen/padding_small" />
+
+        <TextView
+            android:id="@+id/info_view_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_view_longtitude"
+            android:padding="@dimen/padding_small" />
+
+        <TextView
+            android:id="@+id/info_view_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_view_time"
+            android:padding="@dimen/padding_small" />
+
+        <Button
+            android:id="@+id/camera_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_view_user"
+            android:text="@string/take_a_shot_btn" />
+
+       
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.worldone.f2fsmartapp.utils.ActionBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionbar_full"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout android:id="@+id/action_bar_container" style="@style/ActionBar" >
+    
+    </RelativeLayout>
+
+</com.worldone.f2fsmartapp.utils.ActionBar>
